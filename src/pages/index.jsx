@@ -5,9 +5,13 @@ const Index = () => {
   return (
     <div>
       <h1 className='text-center text-3xl text-black opacity-80 mt-6'>Crafts</h1>
-      
-      <p className='text-center'><Link to={'/tictactoe'}>TicTacToe </Link></p>
-     {/* <Tictactoe1/> */}
+      <ul className='mx-12 mt-12'>
+        <li>
+          <p className=''><Link to={'/tictactoe'}>TicTacToe </Link></p>
+        </li>
+      </ul>
+
+      {/* <Tictactoe1/> */}
     </div>
   )
 }
